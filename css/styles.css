@@ -33,7 +33,7 @@ h2 {
 
 /* NAVIGATION */
 nav {
-    background-image: url("../img/background.png");
+    background: url("../img/background.png") repeat;
 }
 a.nav-link {
     padding: 1rem 1rem;
@@ -49,6 +49,8 @@ div.logo > img:first-of-type {
     height: 300px;
     margin-top: 80px;
 }
+/* end */
+/* SCROLL DOWN ARROW */
 main a img {
     position: absolute;
     top: 50%;
@@ -56,6 +58,7 @@ main a img {
     margin-top: 250px; /* Half the height */
     margin-left: -15px; /* Half the width */
 }
+/* end */
 main {
     padding-top: 50px;
 }
