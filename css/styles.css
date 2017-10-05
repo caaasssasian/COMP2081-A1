@@ -84,13 +84,14 @@ footer p:first-of-type {
 @media only screen and (max-width: 576px) {
     h1 {
         font-size: 88px;
-        padding-top: 35px;
+        padding-top: 15px;
+        padding-bottom: 45px;
     }
     h2 {
         font-size: 44px;
     }
     div.logo > img:first-of-type {
-        height: 100px;
+        height: 230px;
         margin-top: 30px;
     }
 }
