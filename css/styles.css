@@ -84,8 +84,8 @@ footer p:first-of-type {
 @media only screen and (max-width: 576px) {
     h1 {
         font-size: 88px;
-        padding-top: 15px;
-        padding-bottom: 45px;
+        padding-top: -10px;
+        padding-bottom: 100px;
     }
     h2 {
         font-size: 44px;
