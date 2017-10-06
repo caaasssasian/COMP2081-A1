@@ -1,20 +1,19 @@
 // CUSTOM JS
 
 $(function () {
-      $('footer a.top').click(function(event){        
-        // console.log("Back to Top Clicked");
+      $('footer a.top').click(function(e){
         /* stop default anchor behavior */ 
-        event.preventDefault();
+        e.preventDefault();
         // Animate the whole page up to the scroll top over x milliseconds
         $('html, body').animate({scrollTop: 0}, 1000);
     });
     // Add smooth scrolling to all links
-    $("main a.scrollDown").click(function(event) {
+    $("main a.scrollDown").click(function(e) {
   
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
         // Prevent default anchor click behavior
-        event.preventDefault();
+        e.preventDefault();
   
         // Store hash
         var hash = this.hash;
