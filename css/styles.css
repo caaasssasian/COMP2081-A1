@@ -130,7 +130,20 @@ footer p {
         height: 230px;
         margin-top: 30px;
     }
-    main section > img {
+    /* main section h2 + img {
+        margin: 0;
+        float: none;
+    } */
+    /* main section > img[width="640"] {
+        margin: 0;
+        float: none;
+    } */
+    /* ^ I tried to use a adjacent combinator/attribute selector to make the images in Products & Services have a margin of 0 and a float of none, however, it could not override the child combinator on lines 81 & 87. */
+    main section > section:nth-of-type(3) img {
+        margin: 0;
+        float: none;
+    }
+    main section > section:nth-of-type(4) img {
         margin: 0;
         float: none;
     }
