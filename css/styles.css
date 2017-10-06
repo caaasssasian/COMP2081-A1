@@ -96,9 +96,6 @@ footer p {
         margin-top: -200px;
         padding-bottom: 200px;
     }
-    main > a > img {
-        visibility: hidden;
-    }
     .navbar-light .navbar-toggler {
         border: none;
         outline: none;
@@ -106,6 +103,13 @@ footer p {
     a.nav-link {
         padding: .5rem 1rem;
     }
+    main > section > section {
+        padding-top: 0px;
+    }
+    main > a > img {
+        visibility: hidden;
+    }
+    
 }
 @media only screen and (max-width: 576px) {
     h1 {
