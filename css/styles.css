@@ -78,19 +78,15 @@ main section > section:first-of-type, section:nth-of-type(3) {
 main section > section:nth-of-type(2), section:nth-of-type(4) {
     text-align: right;    
 }
-main section > section#products img {
+main section > section:nth-of-type(3) img {
     width: auto;
     height: 173px;
-}
-main section > section#services img {
-    width: auto;
-    height: 200px;
-}
-main section > section:nth-of-type(3) img {
     margin: 0px 0px 0px 15px;
     float: right;
 }
 main section > section:nth-of-type(4) img {
+    width: auto;
+    height: 200px;
     margin: 0px 15px 0px 0px;
     float: left;
 }
@@ -135,6 +131,7 @@ footer p {
         margin-top: 30px;
     }
     main section > img {
+        margin: 0;
         float: none;
     }
 }
