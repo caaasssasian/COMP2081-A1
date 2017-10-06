@@ -6,6 +6,7 @@
 body {
     background-image: url("../img/background.png");
     background-color: #c0eff6;
+    font-size: 18px;
 }
 h1, h2 {
     font-family: 'Amatic SC', cursive;
@@ -16,6 +17,7 @@ a, .navbar-light .navbar-nav .nav-link {
 }
 a:hover, a:active {
     color: black;
+    text-decoration: none;
 }
 main, footer {
     text-align: center;
@@ -66,16 +68,25 @@ main > section:first-of-type {
     /* padding-top: 300px; */
     margin-top: 150px;
 }
+main > section > section {
+    margin-top: 50px;
+}
 main section > section:first-of-type, section:nth-of-type(3) {
     text-align: left;
 }
 main section > section:nth-of-type(2), section:nth-of-type(4) {
-    text-align: right;
+    text-align: right;    
+}
+main section > section:nth-of-type(3) img {
+    width: auto;
+    height: 173px;
+    margin: 0px 0px 0px 15px;
+    float: right;
 }
 
 /* FOOTER */
-footer p:first-of-type {
-    margin: 0;
+footer p {
+    margin: 0px 0px 3px 0px;
 }
 
 /* MEDIA QUERIES */
